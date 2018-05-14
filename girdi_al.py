@@ -75,7 +75,7 @@ def get_neg_float():
         return sayı
 
 def get_zero():
-    sayı = get_float("Lütfen Pozitif Bir Sayı Girin: ")
+    sayı = get_float("Lütfen Sıfır(0) Girin: ")
     while sayı != 0.0:
         sayı = get_zero()
     else:
